@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <!--
+        Name: Abraham Mejia
+        Date: June 25 2021
+        Assignment Name: Fit For Fun Fitness Club
+
+
+        File name: info.html
+      -->
+      <meta charset="utf-8">
+      <title>Fit For Fun Fitness Club</title>
+      <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+
+      <a href="index.html"><img src="logo.png" alt="4F logo"> </a>
+
+      <nav >
+        <p></p>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="classes.html">CLASSES</a></li>
+          <li><a href="info.html">INFO</a></li>
+      </ul>
+
+      </nav>
+    </header>
+    <h2>Advising Appointment</h2>
+    <div class="container">
+        <form method="get" action="thankyou.html">
+
+          <fieldset>
+            <legend>Contact Information</legend>
+            <label for="fname"> First Name:
+              <input autofocus type="text" name="fname" id="fname" required placeholder="First Name">
+            </label>
+
+            <label for="lname"> Last Name:
+              <input type="text" name="lname" id="lname" required placeholder="Last Name">
+            </label>
+
+            <label for="email"> Email:
+              <input type="email" name="email" id="email" required placeholder="email@example.com">
+            </label>
+
+            <label for="phone"> Phone:
+                <input type="tel" name="phone" id="phone" required placeholder="(123) 123-4567">
+            </label>
+            <label for="best">Preferred Form of Contact</label>
+              <select name="preferred" id="best">
+                  <option value="email">E-mail</option>
+                  <option value="call">Phone</option>
+                  <option value="text">Text</option>
+                  <option value="owl">Owl</option>
+              </select>
+          </fieldset>
+
+          <fieldset>
+            <legend>Classes Offered</legend>
+            <input type="checkbox" name="classes" id="CrossTraining"
+              value="CrossTraining">
+              <label for="CrossTraining">Cross Training</label>
+            <input type="checkbox" name="classes" id="sprint" value="sprint">
+              <label for="sprint">Sprint</label>
+            <input type="checkbox" name="classes" id="bodyPump" value="bodyPump">
+              <label for="bodyPump">Body Pump</label>
+            <input type="checkbox" name="classes" id="advancedCT" value="advancedCT">
+              <label for="advancedCT">Advanced Cross Training</label>
+            <input type="checkbox" name="classes" id="mixedFit" value="mixedFit">
+              <label for="mixedFit">Mixxed FIT</label>
+            <input type="checkbox" name="classes" id="spin" value="spin">
+              <label for="spin">Spin</label>
+            <input type="checkbox" name="classes" id="combat" value="combat">
+              <label for="combat">Body Combat</label>
+            <input type="checkbox" name="classes" id="interval" value="interval">
+              <label for="interval">Step Interval</label>
+            <input type="checkbox" name="classes" id="zumba" value="zumba">
+              <label for="zumba">Zumba</label>
+          </fieldset>
+          <fieldset>
+            <legend>Preferred Class Time</legend>
+            <input name="time" value="am" id="am" type="radio"/>
+              <label for="am">AM</label>
+            <input name="time" value="pm" id="pm" type="radio"/>
+              <label for="pm">PM</label>
+          </fieldset>
+
+
+
+          <fieldset>
+            <legend>Additional Info</legend>
+            <textarea name="comments" rows="4" cols="40"
+            placeholder="Any additional info"></textarea>
+          </fieldset>
+
+          <label>
+            <input class="submit" type="submit" id="submit" value="Submit">
+          </label>
+        </form>
+
+    </div>
+
+
+
+    <footer>
+          FIT FOR FUN FITNESS CLUB &nbsp; &copy; 2021
+    </footer>
+  </body>
+</html>

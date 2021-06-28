@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+/*
+
+   Fit for Fun Fitness Club
+   Author: Abraham Mejia
+   Date:   June 25 2021
+
+   Filename: style.css
+
+
+/* Main Structural Styles */
+html{
+  background-color: gray;
+  height: 100%;
+}
+header {
+	margin-bottom: 10px;
+
+}
+
+body{
+  width: 94%;
+  text-align: center;
+  margin-left: 2em;
+  color: white;
+  background-color: gray;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+/* Heading Styles */
+
+
+h1{
+  font-family: Times, serif;
+  align-content: center;
+  letter-spacing: 0.2em;
+  margin: 0px;
+  margin-top: 2em;
+  margin-bottom: 1.8em;
+  font-weight: normal;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+/* Form */
+
+.container {
+  margin: 25px 0px 50px 100px;
+  width: 80%;
+  background-color: #232323;
+  padding: 25px 0px;
+  border-radius: 5px;
+  opacity: .83;
+}
+
+label{
+  padding-bottom: 15px;
+  padding-top: 5px;
+}
+input{
+  padding-bottom: 5px;
+  padding-top: 2px;
+  margin: 2px;
+}
+.submit{
+  background-color: crimson;
+  color: white;
+}
+
+/* Navigation Styles */
+
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding-top: .5em;
+    overflow: hidden;
+    background-color: crimson;
+  }
+
+ nav ul li {
+    float: left;
+    padding-left: 190px;
+  }
+
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: large;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  nav li a:hover {
+    background-color: #111;
+}
+
+/* Paragraph Styles */
+p {
+  width: 80%;
+  margin-left: 7em;
+  text-align: center;
+}
+
+
+/* List Styles */
+
+div ul {
+    text-align: center;
+    list-style-position: inside;
+    list-style-image: url(tree.png);
+}
+
+/* Footer Styles */
+footer{
+  clear: both;
+}
+footer{
+  background-color: crimson;
+  color: white;
+  color: rgba(255, 255, 255, 0.6);
+  font: normal small-caps bold 0.9em/3em
+         Helvetica, sans-serif;
+  text-align: center;
+}
+
+/* Table */
+
+th, td {
+  background-color: crimson;
+}
+table {
+  width: 1000px;
+  margin: 50px 0px 100px 50px;
+  empty-cells: hide;
+  background-color: #232323;
+}
+
+th, td {
+  padding: 2px;
+  text-align: center;
+}
+table, th, td {
+  border: 2px black solid;
+}
+
+/* Table Caption Styles */
+table caption {
+  caption-side: bottom;
+  text-align: right;
+}
